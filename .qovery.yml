@@ -1,0 +1,11 @@
+---
+application:
+  name: "shop-api"
+  project: "shop-api-nest"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-shop-api"
+  routes:
+  - application_name: "shop-api"
+    paths:
+    - "/*"
